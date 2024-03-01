@@ -1,9 +1,12 @@
+.html{
+    background-color: black;
+}
+
 .map-content{
     display: flex;
     width: 100%;
     justify-content: center;
 }
-
 .image{
     position: fixed;
     width: 65vw;

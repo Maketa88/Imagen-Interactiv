@@ -7,8 +7,8 @@ body, html {
 }
 
 .box-1 {
-    width: auto;
-    height: auto;
+    margin: auto;
+    padding: auto;
 }
 
 .container1 {
