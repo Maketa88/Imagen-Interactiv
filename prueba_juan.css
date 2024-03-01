@@ -1,7 +1,3 @@
-.html{
-    background-color: black;
-}
-
 .map-content{
     display: flex;
     width: 100%;
@@ -14,7 +10,6 @@
 
 }
 #image-buttons{
-    /* background-color: rgba(0, 0, 255, 0.233); *//* Para que tenga colores de referencia*/
     z-index: 2;
 }
 a{
@@ -27,7 +22,6 @@ a{
     left: 23vw;
     width: 6.4vw;
     height: 6vw;
-    background-color: blueviolet;  /* Para que tenga colores de referencia*/
     z-index: 3;
 }
 #btn-2{
@@ -36,7 +30,6 @@ a{
     left: 35.4vw;
     width: 5vw;
     height: 5.4vw;
-    background-color: blue;  /* Para que tenga colores de referencia*/
     z-index: 3;
 }
 #btn-3{
@@ -45,7 +38,6 @@ a{
     left: 46.8vw;
     width: 6.5vw;
     height: 4.6vw;
-    background-color: pink;  /* Para que tenga colores de referencia*/
     z-index: 3;
 }
 #btn-4{
@@ -54,7 +46,6 @@ a{
     left: 59.5vw;
     width: 5vw;
     height: 5vw;
-    background-color: tomato;  /* Para que tenga colores de referencia*/
     z-index: 3;
 }
 #btn-5{
@@ -63,7 +54,6 @@ a{
     left: 71.7vw;
     width: 4.7vw;
     height: 5vw;
-    background-color: greenyellow;  /* Para que tenga colores de referencia*/
     z-index: 3;
 }
 #btn-6{
@@ -72,7 +62,6 @@ a{
     left: 73.2vw;
     width: 5.2vw;
     height: 5vw;
-    background-color: chocolate;  /* Para que tenga colores de referencia*/
     z-index: 3;
 }
 #btn-7{
@@ -81,7 +70,6 @@ a{
     left: 43.1vw;
     width: 5.1vw;
     height: 5.2vw;
-    background-color: purple;  /* Para que tenga colores de referencia*/
     z-index: 3;
 }
 #btn-8{
@@ -90,7 +78,6 @@ a{
     left: 35.4vw;
     width: 4.5vw;
     height: 4.5vw;
-    background-color: firebrick;  /* Para que tenga colores de referencia*/
     z-index: 3;
 }
 #btn-9{
@@ -99,6 +86,5 @@ a{
     left: 59.8vw;
     width: 4.5vw;
     height: 4.6vw;
-    background-color: yellow;  /* Para que tenga colores de referencia*/
     z-index: 3;
 }
