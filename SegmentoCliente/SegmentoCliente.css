@@ -1,0 +1,1966 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+   
+}
+
+.container1 {
+    
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.container1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.container1 .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 69%;
+    right: 4%;
+   
+    color: black;
+    transform: translate(-50%, -50%);
+    
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.container1:hover .text-overlay {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.opaque {
+    opacity: 0.3; /* Puedes ajustar este valor según desees */
+}
+
+.container1 img {
+    animation: move 5s ease-in-out infinite alternate;
+}
+
+p{
+    color: black;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+
+}
+h1{
+    font-size: 18px;
+    text-align: center;
+}.socio{
+    background-color: azure;
+    padding: 14px;
+    border-radius: 14px;
+    border:2px solid green;
+    margin-left: 0%;
+    font-size: 16.5px;
+    
+}
+.socio3{
+    background-color: azure;
+    padding: 14px;
+    border-radius: 14px;
+    border:2px solid green;
+    font-size: 16.5px;
+}
+.socio2{
+    background-color: azure;
+    padding: 14px;
+    border-radius: 14px;
+    border:2px solid green;
+    font-size: 16.5px;
+}
+.titulosocio{
+    position: absolute;
+    
+    left: 12%;
+   top:29%;
+   font-family: Arial, Helvetica, sans-serif;
+
+
+ transform: translate(-50%, -50%);
+    
+   opacity: 0;
+   transition: opacity 0.3s ease, transform 0.3s ease;
+
+
+}
+.container1:hover .titulosocio {
+    opacity: 1;
+    transform: translate(-8%, -8%) scale(1.1);
+}
+.titulos{
+    position: absolute;
+    left: 12%;
+   top:66%;
+   font-family: Arial, Helvetica, sans-serif;
+   transform: translate(-50%, -50%);
+   
+    
+   opacity: 0;
+   transition: opacity 0.3s ease, transform 0.3s ease;
+ 
+
+}
+.container1:hover .titulos {
+    opacity: 1;
+    transform: translate(-8%, -8%) scale(1.1);
+}
+
+.titulos1{
+    position: absolute;
+    left: 12%;
+   top:78%;
+   font-family: Arial, Helvetica, sans-serif;
+   transform: translate(-50%, -50%);
+    
+   opacity: 0;
+   transition: opacity 0.3s ease, transform 0.3s ease;
+   
+}
+.container1:hover .titulos1 {
+    opacity: 1;
+    transform: translate(-8%, -8%) scale(1.1);
+}
+
+.caja{
+    font-size: 20px;
+    font-family: "Barrio", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.titulos4{
+    position: absolute;
+    left: 44%;
+   top:38%;
+   font-family: Arial, Helvetica, sans-serif;
+   height: 9%;
+   width: 6%;
+   transform: translate(-50%, -50%);
+    
+   opacity: 0;
+   transition: opacity 0.3s ease, transform 0.3s ease;
+   
+
+}
+.container1:hover .titulos4 {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.flecha{
+ 
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.titulos5{
+    position: absolute;
+    left: 44%;
+   top:74%;
+   font-family: Arial, Helvetica, sans-serif;
+   height: 9%;
+   width: 6%;
+   transform: translate(-50%, -50%);
+    
+   opacity: 0;
+   transition: opacity 0.3s ease, transform 0.3s ease;
+   
+
+}
+.container1:hover .titulos5 {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+.flecha1{
+ 
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+.titulos6{
+    position: absolute;
+    left: 38%;
+   top:81%;
+   font-family: Arial, Helvetica, sans-serif;
+   height: 9%;
+   width: 6%;
+   transform: translate(-50%, -50%);
+    
+   opacity: 0;
+   transition: opacity 0.3s ease, transform 0.3s ease;
+   
+
+}
+.container1:hover .titulos6 {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+.flecha2{
+ 
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.container1 .text-overlay1 {
+    position: absolute;
+    top: 48%;
+    left: 69%;
+    
+   
+    color: black;
+    transform: translate(-50%, -50%);
+    
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+   
+}
+.container1:hover .text-overlay1 {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+.socio5{
+    background-color: azure;
+    padding: 14px;
+    border-radius: 14px;
+    border:2px solid green;
+    margin-left: 0%;
+    font-size: 14px;
+    
+}
+@media  (max-width: 4000px){
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+       
+    }
+    
+    .container1 {
+        
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+    
+    .container1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 14px;
+    }
+    
+    .container1 .text-overlay {
+        position: absolute;
+        top: 50%;
+        left: 69%;
+        right: 4%;
+       
+        color: black;
+        transform: translate(-50%, -50%);
+        
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+    .container1:hover .text-overlay {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .opaque {
+        opacity: 0.3; /* Puedes ajustar este valor según desees */
+    }
+    
+    .container1 img {
+        animation: move 5s ease-in-out infinite alternate;
+    }
+    
+    p{
+        color: black;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18px;
+        text-align: justify;
+    
+    }
+    h1{
+        font-size: 18px;
+        text-align: center;
+    }.socio{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        margin-left: 0%;
+        font-size: 52px;
+        
+    }
+    .socio3{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        font-size: 16.5px;
+    }
+    .socio2{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        font-size: 52px;
+    }
+    .titulosocio{
+        position: absolute;
+        
+        left: 12%;
+       top:29%;
+       font-family: Arial, Helvetica, sans-serif;
+    
+    
+     transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+    
+    
+    }
+    .container1:hover .titulosocio {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    .titulos{
+        position: absolute;
+        left: 12%;
+       top:66%;
+       font-family: Arial, Helvetica, sans-serif;
+       transform: translate(-50%, -50%);
+       
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+     
+    
+    }
+    .container1:hover .titulos {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    
+    .titulos1{
+        position: absolute;
+        left: 12%;
+       top:78%;
+       font-family: Arial, Helvetica, sans-serif;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    }
+    .container1:hover .titulos1 {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    
+    .caja{
+        font-size: 40px;
+        font-family: "Barrio", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        
+    }
+    .titulos4{
+        position: absolute;
+        left: 44%;
+       top:38%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos4 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .flecha{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .titulos5{
+        position: absolute;
+        left: 44%;
+       top:74%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos5 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .flecha1{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .titulos6{
+        position: absolute;
+        left: 38%;
+       top:81%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos6 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .flecha2{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .container1 .text-overlay1 {
+        position: absolute;
+        top: 48%;
+        left: 69%;
+        
+       
+        color: black;
+        transform: translate(-50%, -50%);
+        
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    }
+    .container1:hover .text-overlay1 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .socio5{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        margin-left: 0%;
+        font-size: 14px;
+        
+    }
+}
+
+@media  (max-width: 2600px){
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+       
+    }
+    
+    .container1 {
+        
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+    
+    .container1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 14px;
+    }
+    
+    .container1 .text-overlay {
+        position: absolute;
+        top: 50%;
+        left: 69%;
+        right: 4%;
+       
+        color: black;
+        transform: translate(-50%, -50%);
+        
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+    .container1:hover .text-overlay {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .opaque {
+        opacity: 0.3; /* Puedes ajustar este valor según desees */
+    }
+    
+    .container1 img {
+        animation: move 5s ease-in-out infinite alternate;
+    }
+    
+    p{
+        color: black;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18px;
+        text-align: justify;
+    
+    }
+    h1{
+        font-size: 18px;
+        text-align: center;
+    }.socio{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        margin-left: 0%;
+        font-size: 35px;
+        
+    }
+    .socio3{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        font-size: 16.5px;
+    }
+    .socio2{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        font-size: 35px;
+    }
+    .titulosocio{
+        position: absolute;
+        
+        left: 12%;
+       top:29%;
+       font-family: Arial, Helvetica, sans-serif;
+    
+    
+     transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+    
+    
+    }
+    .container1:hover .titulosocio {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    .titulos{
+        position: absolute;
+        left: 12%;
+       top:66%;
+       font-family: Arial, Helvetica, sans-serif;
+       transform: translate(-50%, -50%);
+       
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+     
+    
+    }
+    .container1:hover .titulos {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    
+    .titulos1{
+        position: absolute;
+        left: 12%;
+       top:78%;
+       font-family: Arial, Helvetica, sans-serif;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    }
+    .container1:hover .titulos1 {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    
+    .caja{
+        font-size: 26px;
+        font-family: "Barrio", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        
+    }
+    .titulos4{
+        position: absolute;
+        left: 44%;
+       top:38%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos4 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .flecha{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .titulos5{
+        position: absolute;
+        left: 44%;
+       top:74%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos5 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .flecha1{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .titulos6{
+        position: absolute;
+        left: 38%;
+       top:81%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos6 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .flecha2{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .container1 .text-overlay1 {
+        position: absolute;
+        top: 48%;
+        left: 69%;
+        
+       
+        color: black;
+        transform: translate(-50%, -50%);
+        
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    }
+    .container1:hover .text-overlay1 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .socio5{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        margin-left: 0%;
+        font-size: 14px;
+        
+    }
+
+}
+@media  (max-width: 2000px){
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+       
+    }
+    
+    .container1 {
+        
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+    
+    .container1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 14px;
+    }
+    
+    .container1 .text-overlay {
+        position: absolute;
+        top: 50%;
+        left: 69%;
+        right: 4%;
+       
+        color: black;
+        transform: translate(-50%, -50%);
+        
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+    .container1:hover .text-overlay {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .opaque {
+        opacity: 0.3; /* Puedes ajustar este valor según desees */
+    }
+    
+    .container1 img {
+        animation: move 5s ease-in-out infinite alternate;
+    }
+    
+    p{
+        color: black;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18px;
+        text-align: justify;
+    
+    }
+    h1{
+        font-size: 18px;
+        text-align: center;
+    }.socio{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        margin-left: 0%;
+        font-size: 27px;
+        
+    }
+    .socio3{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        font-size: 16.5px;
+    }
+    .socio2{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        font-size: 27px;
+    }
+    .titulosocio{
+        position: absolute;
+        
+        left: 12%;
+       top:29%;
+       font-family: Arial, Helvetica, sans-serif;
+    
+    
+     transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+    
+    
+    }
+    .container1:hover .titulosocio {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    .titulos{
+        position: absolute;
+        left: 12%;
+       top:66%;
+       font-family: Arial, Helvetica, sans-serif;
+       transform: translate(-50%, -50%);
+       
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+     
+    
+    }
+    .container1:hover .titulos {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    
+    .titulos1{
+        position: absolute;
+        left: 12%;
+       top:78%;
+       font-family: Arial, Helvetica, sans-serif;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    }
+    .container1:hover .titulos1 {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    
+    .caja{
+        font-size: 25px;
+        font-family: "Barrio", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        
+    }
+    .titulos4{
+        position: absolute;
+        left: 44%;
+       top:38%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos4 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .flecha{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .titulos5{
+        position: absolute;
+        left: 44%;
+       top:74%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos5 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .flecha1{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .titulos6{
+        position: absolute;
+        left: 38%;
+       top:81%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos6 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .flecha2{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .container1 .text-overlay1 {
+        position: absolute;
+        top: 48%;
+        left: 69%;
+        
+       
+        color: black;
+        transform: translate(-50%, -50%);
+        
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    }
+    .container1:hover .text-overlay1 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .socio5{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        margin-left: 0%;
+        font-size: 14px;
+        
+    }
+    
+}
+@media  (max-width: 1600px){
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+       
+    }
+    
+    .container1 {
+        
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+    
+    .container1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 14px;
+    }
+    
+    .container1 .text-overlay {
+        position: absolute;
+        top: 50%;
+        left: 69%;
+        right: 4%;
+       
+        color: black;
+        transform: translate(-50%, -50%);
+        
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+    .container1:hover .text-overlay {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .opaque {
+        opacity: 0.3; /* Puedes ajustar este valor según desees */
+    }
+    
+    .container1 img {
+        animation: move 5s ease-in-out infinite alternate;
+    }
+    
+    p{
+        color: black;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18px;
+        text-align: justify;
+    
+    }
+    h1{
+        font-size: 18px;
+        text-align: center;
+    }.socio{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        margin-left: 0%;
+        font-size: 16.5px;
+        
+    }
+    .socio3{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        font-size: 16.5px;
+    }
+    .socio2{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        font-size: 16.5px;
+    }
+    .titulosocio{
+        position: absolute;
+        
+        left: 12%;
+       top:29%;
+       font-family: Arial, Helvetica, sans-serif;
+    
+    
+     transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+    
+    
+    }
+    .container1:hover .titulosocio {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    .titulos{
+        position: absolute;
+        left: 12%;
+       top:66%;
+       font-family: Arial, Helvetica, sans-serif;
+       transform: translate(-50%, -50%);
+       
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+     
+    
+    }
+    .container1:hover .titulos {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    
+    .titulos1{
+        position: absolute;
+        left: 12%;
+       top:78%;
+       font-family: Arial, Helvetica, sans-serif;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    }
+    .container1:hover .titulos1 {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    
+    .caja{
+        font-size: 20px;
+        font-family: "Barrio", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        
+    }
+    .titulos4{
+        position: absolute;
+        left: 44%;
+       top:38%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos4 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .flecha{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .titulos5{
+        position: absolute;
+        left: 44%;
+       top:74%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos5 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .flecha1{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .titulos6{
+        position: absolute;
+        left: 38%;
+       top:81%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos6 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .flecha2{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .container1 .text-overlay1 {
+        position: absolute;
+        top: 48%;
+        left: 69%;
+        
+       
+        color: black;
+        transform: translate(-50%, -50%);
+        
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    }
+    .container1:hover .text-overlay1 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .socio5{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        margin-left: 0%;
+        font-size: 14px;
+        
+    }
+}
+@media  (max-width: 1400px){
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+      
+    }
+    
+    .container1 {
+        
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+    
+    .container1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 14px;
+    }
+    
+    .container1 .text-overlay {
+        position: absolute;
+        top: 50%;
+        left: 69%;
+        right: 4%;
+       
+        color: black;
+        transform: translate(-50%, -50%);
+        
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+    .container1:hover .text-overlay {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .opaque {
+        opacity: 0.3; /* Puedes ajustar este valor según desees */
+    }
+    
+    .container1 img {
+        animation: move 5s ease-in-out infinite alternate;
+    }
+    
+    p{
+        color: black;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18px;
+        text-align: justify;
+    
+    }
+    h1{
+        font-size: 18px;
+        text-align: center;
+    }.socio{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        margin-left: 0%;
+        font-size: 16.5px;
+        
+    }
+    .socio3{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        font-size: 16.5px;
+    }
+    .socio2{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        font-size: 16.5px;
+    }
+    .titulosocio{
+        position: absolute;
+        
+        left: 12%;
+       top:29%;
+       font-family: Arial, Helvetica, sans-serif;
+    
+    
+     transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+    
+    
+    }
+    .container1:hover .titulosocio {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    .titulos{
+        position: absolute;
+        left: 12%;
+       top:66%;
+       font-family: Arial, Helvetica, sans-serif;
+       transform: translate(-50%, -50%);
+       
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+     
+    
+    }
+    .container1:hover .titulos {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    
+    .titulos1{
+        position: absolute;
+        left: 12%;
+       top:78%;
+       font-family: Arial, Helvetica, sans-serif;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    }
+    .container1:hover .titulos1 {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    
+    .caja{
+        font-size: 20px;
+        font-family: "Barrio", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        
+    }
+    .titulos4{
+        position: absolute;
+        left: 44%;
+       top:38%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos4 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .flecha{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .titulos5{
+        position: absolute;
+        left: 44%;
+       top:74%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos5 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .flecha1{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .titulos6{
+        position: absolute;
+        left: 38%;
+       top:81%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos6 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .flecha2{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .container1 .text-overlay1 {
+        position: absolute;
+        top: 48%;
+        left: 69%;
+        
+       
+        color: black;
+        transform: translate(-50%, -50%);
+        
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    }
+    .container1:hover .text-overlay1 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .socio5{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        margin-left: 0%;
+        font-size: 14px;
+        
+    }
+}
+@media  (max-width: 1200px){
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+       
+    }
+    
+    .container1 {
+        
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+    
+    .container1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 14px;
+    }
+    
+    .container1 .text-overlay {
+        position: absolute;
+        top: 50%;
+        left: 69%;
+        right: 4%;
+       
+        color: black;
+        transform: translate(-50%, -50%);
+        
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+    .container1:hover .text-overlay {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .opaque {
+        opacity: 0.3; /* Puedes ajustar este valor según desees */
+    }
+    
+    .container1 img {
+        animation: move 5s ease-in-out infinite alternate;
+    }
+    
+    p{
+        color: black;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18px;
+        text-align: justify;
+    
+    }
+    h1{
+        font-size: 18px;
+        text-align: center;
+    }.socio{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        margin-left: 0%;
+        font-size: 16.5px;
+        
+    }
+    .socio3{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        font-size: 16.5px;
+    }
+    .socio2{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        font-size: 16.5px;
+    }
+    .titulosocio{
+        position: absolute;
+        
+        left: 12%;
+       top:29%;
+       font-family: Arial, Helvetica, sans-serif;
+    
+    
+     transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+    
+    
+    }
+    .container1:hover .titulosocio {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    .titulos{
+        position: absolute;
+        left: 12%;
+       top:66%;
+       font-family: Arial, Helvetica, sans-serif;
+       transform: translate(-50%, -50%);
+       
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+     
+    
+    }
+    .container1:hover .titulos {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    
+    .titulos1{
+        position: absolute;
+        left: 12%;
+       top:78%;
+       font-family: Arial, Helvetica, sans-serif;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    }
+    .container1:hover .titulos1 {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    
+    .caja{
+        font-size: 20px;
+        font-family: "Barrio", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        
+    }
+    .titulos4{
+        position: absolute;
+        left: 44%;
+       top:38%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos4 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .flecha{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .titulos5{
+        position: absolute;
+        left: 44%;
+       top:74%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos5 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .flecha1{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .titulos6{
+        position: absolute;
+        left: 38%;
+       top:81%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos6 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .flecha2{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .container1 .text-overlay1 {
+        position: absolute;
+        top: 48%;
+        left: 69%;
+        
+       
+        color: black;
+        transform: translate(-50%, -50%);
+        
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    }
+    .container1:hover .text-overlay1 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .socio5{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        margin-left: 0%;
+        font-size: 14px;
+        
+    }
+}
+
+@media  (max-width: 1000px){
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+      
+    }
+    
+    .container1 {
+        
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+    
+    .container1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 14px;
+    }
+    
+    .container1 .text-overlay {
+        position: absolute;
+        top: 50%;
+        left: 69%;
+        right: 4%;
+       
+        color: black;
+        transform: translate(-50%, -50%);
+        
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+    .container1:hover .text-overlay {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .opaque {
+        opacity: 0.3; /* Puedes ajustar este valor según desees */
+    }
+    
+    .container1 img {
+        animation: move 5s ease-in-out infinite alternate;
+    }
+    
+    p{
+        color: black;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18px;
+        text-align: justify;
+    
+    }
+    h1{
+        font-size: 18px;
+        text-align: center;
+    }.socio{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        margin-left: 0%;
+        font-size: 11px;
+        
+    }
+    .socio3{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        font-size: 16.5px;
+    }
+    .socio2{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        font-size: 11px;
+    }
+    .titulosocio{
+        position: absolute;
+        
+        left: 12%;
+       top:29%;
+       font-family: Arial, Helvetica, sans-serif;
+    
+    
+     transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+    
+    
+    }
+    .container1:hover .titulosocio {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    .titulos{
+        position: absolute;
+        left: 12%;
+       top:66%;
+       font-family: Arial, Helvetica, sans-serif;
+       transform: translate(-50%, -50%);
+       
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+     
+    
+    }
+    .container1:hover .titulos {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    
+    .titulos1{
+        position: absolute;
+        left: 12%;
+       top:78%;
+       font-family: Arial, Helvetica, sans-serif;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    }
+    .container1:hover .titulos1 {
+        opacity: 1;
+        transform: translate(-8%, -8%) scale(1.1);
+    }
+    
+    .caja{
+        font-size: 14px;
+        font-family: "Barrio", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        
+    }
+    .titulos4{
+        position: absolute;
+        left: 44%;
+       top:38%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos4 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .flecha{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .titulos5{
+        position: absolute;
+        left: 44%;
+       top:74%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos5 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .flecha1{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .titulos6{
+        position: absolute;
+        left: 38%;
+       top:81%;
+       font-family: Arial, Helvetica, sans-serif;
+       height: 9%;
+       width: 6%;
+       transform: translate(-50%, -50%);
+        
+       opacity: 0;
+       transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    
+    }
+    .container1:hover .titulos6 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .flecha2{
+     
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    
+    .container1 .text-overlay1 {
+        position: absolute;
+        top: 48%;
+        left: 69%;
+        
+       
+        color: black;
+        transform: translate(-50%, -50%);
+        
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+       
+    }
+    .container1:hover .text-overlay1 {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    .socio5{
+        background-color: azure;
+        padding: 14px;
+        border-radius: 14px;
+        border:2px solid green;
+        margin-left: 0%;
+        font-size: 14px;
+        
+    }
+    
+}
+
+
+
