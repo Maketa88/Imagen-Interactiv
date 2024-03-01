@@ -5,12 +5,6 @@ body, html {
     overflow: hidden;
   
 }
-
-.box-1 {
-    margin: auto;
-    padding: auto;
-}
-
 .container1 {
     
     width: 100vw;
@@ -31,14 +25,13 @@ body, html {
 
 .container1 .text-overlay {
     position: absolute;
-    top: 50%;
-    left: 65%;
-    
-  
-   
+    top: 10%;
+    left: 70%; 
+    display: grid;
+    width: 51%; 
+    height: 51%;
     color: black;
     transform: translate(-50%, -50%);
-    
     opacity: 0;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
@@ -72,6 +65,7 @@ h1{
     padding: 14px;
     border-radius: 14px;
     border:2px solid green;
+    margin-top: 17%;
     margin-left: 0%;
     font-size: 14px;
     
